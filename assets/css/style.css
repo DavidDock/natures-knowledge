@@ -1,0 +1,19 @@
+/*all elements*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*main container*/
+#main {
+    flex-grow: 1;
+}
