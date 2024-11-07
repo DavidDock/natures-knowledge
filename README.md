@@ -74,6 +74,7 @@ Because the game is to be used by children it is important to ensure the user jo
 - The rules should be simple, short, and written in easy-to-understand language (age-appropriate).
 - The rules should explain:
   - How many questions are in the quiz.
+  - How many levels there are and what themed questions in each level.
   - How many lives you have.
   - The meaning of correct or incorrect answers (e.g., feedback and scoring).
 - The "Quiz Rules" section should be clearly visible but not overpower the main "Start Quiz" button.
@@ -157,7 +158,18 @@ Because the game is to be used by children it is important to ensure the user jo
 
 ---
 
-## 10. Fun Results Screen
+## 10. Level Indicator
+**As a** child user,  
+**I want** to see what level i'm on out of 4,  
+**So that** I know how much more is left to complete the quiz.
+
+### Acceptance Criteria:
+- A visible level counter should be displayed.
+- The level should update in real-time as the user answers each question.
+- Each level displays the relevant questions and background image relating to the theme.
+- The level should reset when the quiz is restarted.
+
+## 11. Fun Results Screen
 **As a** child user,  
 **I want** to see a results screen at the end of the quiz that shows if I passed or failed the quiz.
 **So that** I can know the result of the quiz.
@@ -169,7 +181,7 @@ Because the game is to be used by children it is important to ensure the user jo
 
 ---
 
-## 11. Play Again Option
+## 12. Play Again Option
 **As a** child user,  
 **I want** to be able to restart the quiz and play again if I want to improve my score,  
 **So that** I can keep learning and have fun by taking the quiz multiple times.
@@ -181,14 +193,14 @@ Because the game is to be used by children it is important to ensure the user jo
 
 ---
 
-## 12. Randomized Question Order
+## 13. Randomized Question Order
 **As a** child user,  
 **I want** the questions to be randomized each time I take the quiz,  
 **So that** I can enjoy different experiences each time I play.
 
 ### Acceptance Criteria:
 - The order of questions should be different each time the user plays the quiz.
-- The randomized order should ensure that the quiz content remains logical (i.e., no mismatched questions or topics).
+- The randomized order should contain 5 random questions from each nature theme (Animals, Sea, Space and Habitats) and should correspond to the level progression. This should keep the user interested and want to attempt the quiz again.
 - There should be no repetition of questions within the same session.
 
 ---
