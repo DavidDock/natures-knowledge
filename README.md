@@ -205,7 +205,7 @@ Because the game is to be used by children it is important to ensure the user jo
 
 ---
 
-## 13. Learn More About Nature
+## 14. Learn More About Nature
 **As a** child user,  
 **I want** to have access to information about nature,  
 **So that** I can learn new and interesting information about nature..
@@ -214,6 +214,18 @@ Because the game is to be used by children it is important to ensure the user jo
 - There should be an information page with sections on each subject quized about.
 - The information page should be colorful and engaging with images of the relevant subjects to keep children entertained.
 - The facts should be short, clear, and easy to understand for children.
+
+---
+
+## 15. 404 Page
+**As a** user,  
+**I want**  visit the site again if something went wrong,  
+**So that** I can start the quiz again.
+
+### Acceptance Criteria:
+- If there is a 404 error a relevant page should appear to inform the user of whats happening.
+- This page should have similar styling to the website to ensure best user experience.
+- There should be a clear explanation of what happened and a large link to get back to the website to help the user navigate with ease.
 
 ---
 
