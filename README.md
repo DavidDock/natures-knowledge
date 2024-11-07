@@ -50,7 +50,7 @@ Because the game is to be used by children it is important to ensure the user jo
 - The logo should be clear, colorful, and fun, adding to the visual appeal of the quiz.
 - The heading and logo should be responsive, adjusting to different screen sizes (desktop, tablet, and mobile).
 
-## 2. Footer with
+## 2. Footer with Further Information
 **As a** visitor,  
 **I want** to see a footer with links to other developer projects by the same creator,  
 **So that** I can explore more interactive projects or learn about other work they have done.
