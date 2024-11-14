@@ -40,13 +40,14 @@ h2 {
 .header-container {
     background-color: black;
     width: 100vw;
-    padding: 1.5rem;
 }
 
 .title-container {
-    animation: 1s ease-in 1s 1 slide;
+    animation: ease-in 1s 1 slide;
     display: flex;
+    margin: 1rem;
     flex-direction: column;
+    opacity: 100%;
 }
 
 /*main container*/
