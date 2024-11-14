@@ -36,10 +36,14 @@ h2 {
 }
 
 /* Header */
-
 .header-container {
     background-color: black;
     width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .title-container {
@@ -48,6 +52,13 @@ h2 {
     margin: 1rem;
     flex-direction: column;
     opacity: 100%;
+}
+
+/* logo */
+.logo {
+    margin: 1rem;
+    min-height: 25vh;
+    animation: fadeIn 6s, spin 6s;
 }
 
 /*main container*/
@@ -66,4 +77,16 @@ h2 {
     100% {
       transform: translateX(0);
     }
+}
+
+/*fade in */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* spin */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
