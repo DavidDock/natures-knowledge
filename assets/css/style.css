@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Delius", sans-serif;
 }
 
 
@@ -13,7 +14,55 @@ body {
     flex-direction: column;
 }
 
+
+/*font colors*/
+.green {
+    color: rgb(5, 240, 5);
+}
+
+.blue {
+    color:aqua;
+}
+
+/*headings*/
+h1 {
+    font-family: "Ribeye Marrow", sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    font-family: "Barriecito", sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+/* Header */
+
+.header-container {
+    background-color: black;
+    width: 100vw;
+    padding: 1.5rem;
+}
+
+.title-container {
+    animation: 1s ease-in 1s 1 slide;
+    display: flex;
+    flex-direction: column;
+}
+
 /*main container*/
 #main {
     flex-grow: 1;
+}
+
+/* annimations */
+
+/*slide from left */
+@keyframes slide {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
 }
