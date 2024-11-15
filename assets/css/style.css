@@ -44,6 +44,9 @@ h2 {
     padding: 1rem;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
+    background-image: url(/assets/images/space.jpg);
+    background-size: cover;
 }
 
 .title-container {
@@ -57,7 +60,8 @@ h2 {
 /* logo */
 .logo {
     margin: 1rem;
-    min-height: 25vh;
+    width: 8rem;
+    height: auto;
     animation: fadeIn 6s, spin 6s;
 }
 
@@ -68,10 +72,10 @@ h2 {
 
 /* annimations */
 
-/*slide from left */
+/*slide from right */
 @keyframes slide {
     0% {
-      transform: translateX(-100%);
+      transform: translateX(200%);
     }
   
     100% {
@@ -89,4 +93,21 @@ h2 {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/*media query max 576px*/
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .knowledge {
+        font-size: 0.75rem;
+    }
+
+    .logo {
+        width: 3rem;
+    }
+
 }
