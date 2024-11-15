@@ -43,7 +43,6 @@ h2 {
     flex-wrap: wrap;
     padding: 1rem;
     align-items: center;
-    justify-content: space-between;
     overflow: hidden;
     background-image: url(/assets/images/space.jpg);
     background-size: cover;
@@ -107,7 +106,7 @@ h2 {
     }
 
     .logo {
-        width: 3rem;
+        width: 5rem;
     }
 
 }
