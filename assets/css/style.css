@@ -96,19 +96,31 @@ h2 {
 
 /* quiz css */
 
-#game-container {
+#start-btn {
+    height: fit-content;
+}
+
+#restart-btn {
+    height: fit-content;
+}
+
+#start-btn:hover, #restart-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+#quiz-container {
     width: 100%;
     max-width: 600px;
     text-align: center;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-}
-
-#quiz-container {
-    display: flex;
+    padding: 0.5rem;
+    margin: 1rem;
+    display:none;
     flex-direction: column;
+    height: fit-content;
 }
 
 #question-container {
@@ -139,7 +151,8 @@ h2 {
 }
 
 .answer-btn:hover {
-    background-color: #45a049;
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
 #status-container {

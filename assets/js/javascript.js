@@ -117,7 +117,7 @@ function startGame() {
     document.getElementById('start-btn').style.display = 'none';
 
     // Show the quiz container
-    document.getElementById('quiz-container').style.display = 'block';
+    document.getElementById('quiz-container').style.display = 'flex';
 
     // Hide the restart button initially
     document.getElementById('restart-btn').style.display = 'none';
