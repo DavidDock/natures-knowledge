@@ -179,15 +179,16 @@ function handleAnswerClick(answer, correctAnswer) {
 // End the game and display a message
 function endGame() {
     const quizContainer = document.getElementById('quiz-container');
-    const endMessage = document.getElementById('end-message');
+    const winnerMessage = document.getElementById('winner-message');
+    const looserMessage = document.getElementById('looser-message');
     const restartBtn = document.getElementById('restart-btn');
 
     if (currentLives > 0) {
         quizContainer.style.display = "none";
-        endMessage.innerText = "You finished the quiz!";
+        winnerMessage.style.display = "inline-block";
     } else {
         quizContainer.style.display = "none";
-        endMessage.innerText = "Game Over!";
+        looserMessage.style.display = "inline-block";
     }
 
     // Show the restart button
@@ -203,6 +204,8 @@ function restartGame() {
     // Hide the result and restart button, then start the game again
     document.getElementById('result-container').innerText = '';
     document.getElementById('lives').innerText = `Lives: ${currentLives}`;
+    document.getElementById('looser-message').style.display = 'none';
+    document.getElementById('winner-message').style.display = 'none';
     document.getElementById('restart-btn').style.display = 'none';
 
     // Show the quiz container

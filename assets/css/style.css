@@ -142,9 +142,15 @@ h2 {
 }
 
 /* end message */
-#end-message {
+#winner-message {
+    display: none;
     color: #333;
 }
+#looser-message {
+    display: none;
+    color: #333;
+}
+
 
 /* annimations */
 
