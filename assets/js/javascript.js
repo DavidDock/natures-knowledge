@@ -172,18 +172,22 @@ function handleAnswerClick(answer, correctAnswer) {
     setTimeout(() => {
         currentQuestionIndex++;
         showQuestion();
+        resultContainer.innerText = "";
     }, 1000);
 }
 
 // End the game and display a message
 function endGame() {
-    const resultContainer = document.getElementById('result-container');
+    const quizContainer = document.getElementById('quiz-container');
+    const endMessage = document.getElementById('end-message');
     const restartBtn = document.getElementById('restart-btn');
 
     if (currentLives > 0) {
-        resultContainer.innerText = "You finished the quiz!";
+        quizContainer.style.display = "none";
+        endMessage.innerText = "You finished the quiz!";
     } else {
-        resultContainer.innerText = "Game Over!";
+        quizContainer.style.display = "none";
+        endMessage.innerText = "Game Over!";
     }
 
     // Show the restart button
