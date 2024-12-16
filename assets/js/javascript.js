@@ -126,11 +126,29 @@ function startGame() {
     showQuestion();
 }
 
-// Display the current question and answers
+// Display the current question and answers and question no and level
 function showQuestion() {
+    const level = document.getElementById('level');
+
     if (currentQuestionIndex >= questions.length || currentLives <= 0) {
         endGame();
         return;
+    }
+    
+    document.getElementById('current-question').innerText = `Question: ${currentQuestionIndex + 1}/20`;
+
+    if (0 <= currentQuestionIndex && currentQuestionIndex <5) {
+        level.innerText = "Level: 1";
+        document.getElementById('main').style.backgroundColor = 'pink'
+    } else if (5 <= currentQuestionIndex && currentQuestionIndex <10) {
+        level.innerText = "Level: 2";
+        document.getElementById('main').style.backgroundColor = 'orange'
+    } else if (10 <= currentQuestionIndex && currentQuestionIndex <15) {
+        level.innerText = "Level: 3";
+        document.getElementById('main').style.backgroundColor = 'yellow'
+    } else {
+        level.innerText = "Level: Final";
+        document.getElementById('main').style.backgroundColor = 'black'
     }
 
     const question = questions[currentQuestionIndex];
@@ -156,11 +174,13 @@ function handleAnswerClick(answer, correctAnswer) {
     // Check if the answer is correct
     if (answer === correctAnswer) {
         resultContainer.innerText = "Correct!";
+        resultContainer.style.color = 'green';
         answerButtons.forEach(btn => {
             if (btn.innerText === answer) btn.style.backgroundColor = 'green';
         });
     } else {
         resultContainer.innerText = "Incorrect!";
+        resultContainer.style.color = 'red';
         currentLives--;
         livesContainer.innerText = `Lives: ${currentLives}`;
         answerButtons.forEach(btn => {

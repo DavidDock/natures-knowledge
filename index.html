@@ -48,9 +48,13 @@
 
         <!--Quiz Container (Initially Hidden)-->
         <div id="quiz-container">
+            <div class="d-flex justify-content-between">
+                <p id="level">Level:</p>
+                <p id="lives">Lives: 5</p>
+                <p id="current-question">Question: 1/20</p>
+            </div>
+
             <h1 id="question">Loading question...</h1>
-            <div id="result-container"></div>
-            <div id="lives">Lives: 5</div>
             
             <div class="answer-buttons">
                 <button class="answer-btn"></button>
@@ -58,6 +62,8 @@
                 <button class="answer-btn"></button>
                 <button class="answer-btn"></button>
             </div>
+
+            <div id="result-container"></div>
         </div>
 
         <!-- End Messgae-->
