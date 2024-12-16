@@ -129,27 +129,32 @@ function startGame() {
 // Display the current question and answers and question no and level
 function showQuestion() {
     const level = document.getElementById('level');
+    const main = document.getElementById('main');
 
     if (currentQuestionIndex >= questions.length || currentLives <= 0) {
         endGame();
         return;
     }
-    
-    document.getElementById('current-question').innerText = `Question: ${currentQuestionIndex + 1}/20`;
 
     if (0 <= currentQuestionIndex && currentQuestionIndex <5) {
         level.innerText = "Level: 1";
-        document.getElementById('main').style.backgroundColor = 'pink'
+        main.classList.remove("habitat");
+        main.classList.add("animals");
     } else if (5 <= currentQuestionIndex && currentQuestionIndex <10) {
         level.innerText = "Level: 2";
-        document.getElementById('main').style.backgroundColor = 'orange'
+        main.classList.remove("animals");
+        main.classList.add("habitat");
     } else if (10 <= currentQuestionIndex && currentQuestionIndex <15) {
         level.innerText = "Level: 3";
-        document.getElementById('main').style.backgroundColor = 'yellow'
+        main.classList.remove("habitat");
+        main.classList.add("ocean");
     } else {
         level.innerText = "Level: Final";
-        document.getElementById('main').style.backgroundColor = 'black'
+        main.classList.remove("ocean");
+        main.classList.add("planets");
     }
+
+    document.getElementById('current-question').innerText = `Question: ${currentQuestionIndex + 1}/20`;
 
     const question = questions[currentQuestionIndex];
     document.getElementById('question').innerText = question.question;

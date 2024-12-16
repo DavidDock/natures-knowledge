@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 
 
@@ -64,9 +65,41 @@ h2 {
     animation: fadeIn 6s, spin 6s;
 }
 
+/* Footer */
+.footer-container {
+    opacity: 40%;
+    color: white;
+    width: 100vw;
+    min-height: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../images/reef.jpg');
+    background-size: cover;
+    background-position: 0% 80%;
+}
+
 /*main container*/
 #main {
     flex-grow: 1;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+/* background images */
+.earth {
+    background-image: url('../images/earth.jpg');
+}
+.planets {
+    background-image: url('../images/planets.jpg');
+}
+.habitat {
+    background-image: url('../images/habitat.jpg');
+}
+.animals {
+    background-image: url('../images/animals.jpg');
+}
+.ocean {
+    background-image: url('../images/ocean.jpg');
 }
 
 /* Quiz css */
