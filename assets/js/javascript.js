@@ -137,19 +137,19 @@ function showQuestion() {
     }
 
     if (0 <= currentQuestionIndex && currentQuestionIndex <5) {
-        level.innerText = "Level: 1";
-        main.classList.remove("habitat");
+        level.innerText = "Subject: Animals";
+        main.classList.remove("earth");
         main.classList.add("animals");
     } else if (5 <= currentQuestionIndex && currentQuestionIndex <10) {
-        level.innerText = "Level: 2";
+        level.innerText = "Subject: Habitats";
         main.classList.remove("animals");
         main.classList.add("habitat");
     } else if (10 <= currentQuestionIndex && currentQuestionIndex <15) {
-        level.innerText = "Level: 3";
+        level.innerText = "Subject: Ocean";
         main.classList.remove("habitat");
         main.classList.add("ocean");
     } else {
-        level.innerText = "Level: Final";
+        level.innerText = "Subject: Space";
         main.classList.remove("ocean");
         main.classList.add("planets");
     }
