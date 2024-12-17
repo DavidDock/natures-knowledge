@@ -145,7 +145,7 @@ function showQuestion() {
         main.classList.remove("animals");
         main.classList.add("habitat");
     } else if (10 <= currentQuestionIndex && currentQuestionIndex <15) {
-        level.innerText = "Subject: Ocean";
+        level.innerText = "Subject: The Ocean";
         main.classList.remove("habitat");
         main.classList.add("ocean");
     } else {
