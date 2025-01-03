@@ -43,7 +43,7 @@ const habitatsQuestions = [
     { question: "Which animal is known for living in the trees?", answers: ["Sloth", "Elephant", "Tiger", "Shark"], correct: "Sloth" },
     { question: "Which habitat is known for having the most biodiversity?", answers: ["Rainforest", "Desert", "Ocean", "Savanna"], correct: "Rainforest" },
     { question: "Which of these animals is found in the ocean?", answers: ["Shark", "Koala", "Lion", "Penguin"], correct: "Shark" },
-    // Additional habitat questions
+    // 10 Additional habitat questions
     { question: "What type of habitat do camels live in?", answers: ["Desert", "Forest", "Tundra", "Savanna"], correct: "Desert" },
     { question: "Which animal is found in the tundra?", answers: ["Arctic Fox", "Tiger", "Elephant", "Penguin"], correct: "Arctic Fox" },
     { question: "Which animal lives in the savanna?", answers: ["Lion", "Polar Bear", "Penguin", "Shark"], correct: "Lion" },
