@@ -19,6 +19,17 @@ const animalsQuestions = [
     { question: "Which animal is known for its 'king of the jungle' title?", answers: ["Lion", "Tiger", "Cheetah", "Elephant"], correct: "Lion" },
     { question: "What is the largest species of bear?", answers: ["Polar Bear", "Grizzly Bear", "Panda Bear", "Brown Bear"], correct: "Polar Bear" },
     { question: "Which animal can live in both freshwater and saltwater?", answers: ["Shark", "Salmon", "Dolphin", "Turtle"], correct: "Salmon" },
+    // Additional 10 animal questions
+    { question: "Which animal is known for having the best sense of smell?", answers: ["Bloodhound", "Shark", "Elephant", "Bat"], correct: "Bloodhound" },
+    { question: "Which bird is the fastest in the world?", answers: ["Peregrine Falcon", "Eagle", "Hawk", "Owl"], correct: "Peregrine Falcon" },
+    { question: "Which animal can hold its breath the longest underwater?", answers: ["Sperm Whale", "Dolphin", "Seal", "Shark"], correct: "Sperm Whale" },
+    { question: "What animal is known for its long migration?", answers: ["Monarch Butterfly", "Elephant", "Humpback Whale", "Penguin"], correct: "Monarch Butterfly" },
+    { question: "Which animal is the largest land mammal?", answers: ["Elephant", "Rhinoceros", "Giraffe", "Hippo"], correct: "Elephant" },
+    { question: "Which animal is known for its black and white coloring?", answers: ["Panda", "Zebra", "Skunk", "Penguin"], correct: "Panda" },
+    { question: "Which animal has a poisonous bite that can paralyze prey?", answers: ["Cone Snail", "Spider", "Shark", "Lion"], correct: "Cone Snail" },
+    { question: "Which animal is known for making a purring sound?", answers: ["Cat", "Lion", "Tiger", "Bear"], correct: "Cat" },
+    { question: "Which animal is capable of flying at high altitudes?", answers: ["Eagle", "Bat", "Pigeon", "Penguin"], correct: "Eagle" },
+    { question: "Which is the largest rodent in the world?", answers: ["Capybara", "Beaver", "Squirrel", "Hamster"], correct: "Capybara" }
 ];
 
 const habitatsQuestions = [
@@ -42,6 +53,17 @@ const habitatsQuestions = [
     { question: "Which of these animals is an example of a forest dweller?", answers: ["Squirrel", "Penguin", "Whale", "Shark"], correct: "Squirrel" },
     { question: "What habitat do most koalas live in?", answers: ["Eucalyptus forests", "Savanna", "Desert", "Mountain"], correct: "Eucalyptus forests" },
     { question: "What habitat is home to meerkats?", answers: ["Desert", "Ocean", "Forest", "Mountain"], correct: "Desert" },
+    // Additional 10 habitat questions
+    { question: "Which of these animals is found in the Arctic?", answers: ["Polar Bear", "Lion", "Koala", "Penguin"], correct: "Polar Bear" },
+    { question: "Which animal lives in the Australian Outback?", answers: ["Kangaroo", "Penguin", "Polar Bear", "Panda"], correct: "Kangaroo" },
+    { question: "Which animal lives in caves?", answers: ["Bat", "Tiger", "Bear", "Lion"], correct: "Bat" },
+    { question: "Which of these animals is found in the Amazon Rainforest?", answers: ["Jaguar", "Camel", "Penguin", "Lion"], correct: "Jaguar" },
+    { question: "Where do sea otters live?", answers: ["Coastal waters", "Desert", "Mountains", "Savanna"], correct: "Coastal waters" },
+    { question: "What type of habitat does a polar bear live in?", answers: ["Tundra", "Rainforest", "Savanna", "Desert"], correct: "Tundra" },
+    { question: "Which animal lives in the savanna and is known for its impressive mane?", answers: ["Lion", "Giraffe", "Elephant", "Cheetah"], correct: "Lion" },
+    { question: "Which animal is known for living in burrows in the desert?", answers: ["Fennec Fox", "Camel", "Lynx", "Penguin"], correct: "Fennec Fox" },
+    { question: "Which animal is adapted to living in high-altitude habitats?", answers: ["Snow Leopard", "Lion", "Giraffe", "Shark"], correct: "Snow Leopard" },
+    { question: "Which forest is home to the largest variety of tree species?", answers: ["Tropical Rainforest", "Coniferous Forest", "Deciduous Forest", "Savanna"], correct: "Tropical Rainforest" }
 ];
 
 const oceanQuestions = [
@@ -58,13 +80,24 @@ const oceanQuestions = [
     // Additional ocean questions
     { question: "What do sea turtles primarily eat?", answers: ["Seaweed", "Fish", "Coral", "Insects"], correct: "Seaweed" },
     { question: "Which ocean is located between Africa and Australia?", answers: ["Indian Ocean", "Atlantic Ocean", "Pacific Ocean", "Southern Ocean"], correct: "Indian Ocean" },
-    { question: "Which of these animals can migrate across the ocean?", answers: ["Whale", "Shark", "Sea Turtle", "All of the above"], correct: "All of the above" },
+    { question: "Which of these animals can migrate across the ocean?", answers: ["Whale", "Shark", "Sea Turtle", "All of the above"], correct: "All answers" },
     { question: "What is a group of jellyfish called?", answers: ["Smack", "Swarm", "School", "Pod"], correct: "Smack" },
     { question: "Which of these is a common ocean predator?", answers: ["Shark", "Penguin", "Otter", "Dolphin"], correct: "Shark" },
-    { question: "What is a characteristic of the Great Barrier Reef?", answers: ["Coral Reef", "Fish Nursery", "Largest Living Structure", "All of the above"], correct: "All of the above" },
+    { question: "What is a characteristic of the Great Barrier Reef?", answers: ["Coral Reef", "Fish Nursery", "Largest Living Structure", "All of the above"], correct: "All answers" },
     { question: "What is the main threat to ocean ecosystems?", answers: ["Pollution", "Tides", "Earthquakes", "Hurricanes"], correct: "Pollution" },
     { question: "What type of animal is a starfish?", answers: ["Invertebrate", "Fish", "Mammal", "Reptile"], correct: "Invertebrate" },
     { question: "Which ocean has the highest biodiversity?", answers: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Southern Ocean"], correct: "Pacific Ocean" },
+    { question: "What is the largest species of whale?", answers: ["Blue Whale", "Sperm Whale", "Humpback Whale", "Gray Whale"], correct: "Blue Whale" },
+    { question: "Which ocean is the largest?", answers: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Southern Ocean"], correct: "Pacific Ocean" },
+    { question: "What is the name of the world’s largest coral reef?", answers: ["Great Barrier Reef", "Belize Barrier Reef", "Raja Ampat", "New Caledonian Reef"], correct: "Great Barrier Reef" },
+    { question: "Which of these animals is known for its bioluminescence?", answers: ["Anglerfish", "Shark", "Seal", "Whale"], correct: "Anglerfish" },
+    { question: "Which marine creature has the ability to regenerate its limbs?", answers: ["Starfish", "Jellyfish", "Shark", "Seahorse"], correct: "Starfish" },
+    { question: "What is the name of the cold current that flows along the West Coast of South America?", answers: ["Humboldt Current", "Gulf Stream", "Kuroshio Current", "Agulhas Current"], correct: "Humboldt Current" },
+    { question: "What is the main cause of ocean acidification?", answers: ["Carbon dioxide", "Nitrogen", "Plankton", "Tidal waves"], correct: "Carbon dioxide" },
+    { question: "Which animal is known for its spiral-shaped shell?", answers: ["Nautilus", "Turtle", "Octopus", "Whale"], correct: "Nautilus" },
+    { question: "What is the main threat to ocean ecosystems?", answers: ["Pollution", "Overfishing", "Climate change", "All of the above"], correct: "All of the above" },
+    { question: "Which animal is known to travel across entire oceans during its life cycle?", answers: ["Sea Turtle", "Whale", "Shark", "All of the above"], correct: "All answers" }
+
 ];
 
 const spaceQuestions = [
@@ -88,6 +121,16 @@ const spaceQuestions = [
     { question: "What is the largest star in the Milky Way?", answers: ["UY Scuti", "Sirius", "Sun", "Betelgeuse"], correct: "UY Scuti" },
     { question: "What is the name of the first artificial satellite of the Earth?", answers: ["Sputnik", "Apollo 11", "Voyager", "Hubble"], correct: "Sputnik" },
     { question: "What is the main ingredient of stars?", answers: ["Hydrogen", "Oxygen", "Carbon", "Helium"], correct: "Hydrogen" },
+    { question: "What is the closest galaxy to the Milky Way?", answers: ["Andromeda", "Triangulum", "Whirlpool", "Sombrero"], correct: "Andromeda" },
+    { question: "Which of these planets has a storm known as the Great Red Spot?", answers: ["Jupiter", "Saturn", "Neptune", "Mars"], correct: "Jupiter" },
+    { question: "What is the name of the first manned mission to land on the Moon?", answers: ["Apollo 11", "Gemini 8", "Vostok 1", "Sputnik 1"], correct: "Apollo 11" },
+    { question: "Which planet has the most extreme seasons?", answers: ["Uranus", "Mars", "Venus", "Neptune"], correct: "Uranus" },
+    { question: "What is the largest volcano in the solar system?", answers: ["Olympus Mons", "Mount Everest", "Mount Fuji", "Vesuvius"], correct: "Olympus Mons" },
+    { question: "Which planet is often referred to as the 'morning star'?", answers: ["Venus", "Mercury", "Mars", "Jupiter"], correct: "Venus" },
+    { question: "What is the name of the first artificial Earth satellite?", answers: ["Sputnik 1", "Apollo 11", "Vostok 1", "Explorer 1"], correct: "Sputnik 1" },
+    { question: "What is the largest known star?", answers: ["UY Scuti", "Sirius", "Betelgeuse", "Alpha Centauri"], correct: "UY Scuti" },
+    { question: "Which planet has a moon named Titan?", answers: ["Saturn", "Jupiter", "Mars", "Neptune"], correct: "Saturn" },
+    { question: "Which of the following planets is classified as a gas giant?", answers: ["Jupiter", "Mars", "Venus", "Earth"], correct: "Jupiter" }
 ];
 
 // Variables to track game state
