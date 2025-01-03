@@ -80,10 +80,10 @@ const oceanQuestions = [
     // Additional ocean questions
     { question: "What do sea turtles primarily eat?", answers: ["Seaweed", "Fish", "Coral", "Insects"], correct: "Seaweed" },
     { question: "Which ocean is located between Africa and Australia?", answers: ["Indian Ocean", "Atlantic Ocean", "Pacific Ocean", "Southern Ocean"], correct: "Indian Ocean" },
-    { question: "Which of these animals can migrate across the ocean?", answers: ["Whale", "Shark", "Sea Turtle", "All of the above"], correct: "All answers" },
+    { question: "Which of these animals can migrate across the ocean?", answers: ["Whale", "Shark", "Sea Turtle", "All answers"], correct: "All answers" },
     { question: "What is a group of jellyfish called?", answers: ["Smack", "Swarm", "School", "Pod"], correct: "Smack" },
     { question: "Which of these is a common ocean predator?", answers: ["Shark", "Penguin", "Otter", "Dolphin"], correct: "Shark" },
-    { question: "What is a characteristic of the Great Barrier Reef?", answers: ["Coral Reef", "Fish Nursery", "Largest Living Structure", "All of the above"], correct: "All answers" },
+    { question: "What is a characteristic of the Great Barrier Reef?", answers: ["Coral Reef", "Fish Nursery", "Largest Living Structure", "All answers"], correct: "All answers" },
     { question: "What is the main threat to ocean ecosystems?", answers: ["Pollution", "Tides", "Earthquakes", "Hurricanes"], correct: "Pollution" },
     { question: "What type of animal is a starfish?", answers: ["Invertebrate", "Fish", "Mammal", "Reptile"], correct: "Invertebrate" },
     { question: "Which ocean has the highest biodiversity?", answers: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Southern Ocean"], correct: "Pacific Ocean" },
@@ -95,8 +95,8 @@ const oceanQuestions = [
     { question: "What is the name of the cold current that flows along the West Coast of South America?", answers: ["Humboldt Current", "Gulf Stream", "Kuroshio Current", "Agulhas Current"], correct: "Humboldt Current" },
     { question: "What is the main cause of ocean acidification?", answers: ["Carbon dioxide", "Nitrogen", "Plankton", "Tidal waves"], correct: "Carbon dioxide" },
     { question: "Which animal is known for its spiral-shaped shell?", answers: ["Nautilus", "Turtle", "Octopus", "Whale"], correct: "Nautilus" },
-    { question: "What is the main threat to ocean ecosystems?", answers: ["Pollution", "Overfishing", "Climate change", "All of the above"], correct: "All of the above" },
-    { question: "Which animal is known to travel across entire oceans during its life cycle?", answers: ["Sea Turtle", "Whale", "Shark", "All of the above"], correct: "All answers" }
+    { question: "What is the main threat to ocean ecosystems?", answers: ["Pollution", "Overfishing", "Climate change", "All answers"], correct: "All answers" },
+    { question: "Which animal is known to travel across entire oceans during its life cycle?", answers: ["Sea Turtle", "Whale", "Shark", "All answers"], correct: "All answers" }
 
 ];
 
