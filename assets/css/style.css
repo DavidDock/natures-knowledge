@@ -192,7 +192,6 @@ h2 {
 
 .answer-btn:hover {
     transform: scale(1.05); /* Slight zoom effect */
-    color: #660101;
 }
 
 /* lives */
