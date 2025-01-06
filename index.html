@@ -47,23 +47,23 @@
     <section id="main" class="d-flex flex-column justify-content-center align-items-center earth">
 
         <!--Quiz Container (Initially Hidden)-->
-        <div id="quiz-container">
-            <div class="d-flex justify-content-between">
-                <p id="level">Level:</p>
-                <p id="lives">Lives: 5</p>
-                <p id="current-question">Question: 1/20</p>
+        <div id="quiz-container" class="back-yellow">
+            <div class="d-flex justify-content-around flex-wrap align-items-center">
+                <p id="level" class="back-green">Level:</p>
+                <p id="lives" class="back-blue">Lives: 5</p>
+                <p id="current-question" class="back-green">Question: 1/20</p>
             </div>
 
-            <h1 id="question">Loading question...</h1>
+            <h1 id="question" class="my-2 back-yellow">Loading question...</h1>
             
-            <div class="answer-buttons">
+            <div class="answer-buttons my-2">
                 <button class="answer-btn"></button>
                 <button class="answer-btn"></button>
                 <button class="answer-btn"></button>
                 <button class="answer-btn"></button>
             </div>
 
-            <div id="result-container"></div>
+            <div id="result-container" class="my-2 mx-auto"></div>
         </div>
 
         <!-- End Messgae-->

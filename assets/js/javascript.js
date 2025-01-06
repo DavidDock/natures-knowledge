@@ -79,7 +79,7 @@ function showQuestion() {
     const answerButtons = document.querySelectorAll('.answer-btn');
     answerButtons.forEach((btn, idx) => {
         btn.innerText = answers[idx];
-        btn.style.backgroundColor = '#4CAF50';  // Reset button color
+        btn.style.backgroundColor = '#FD7A03';  // Reset button color
         btn.onclick = () => handleAnswerClick(answers[idx], question.correct);
     });
 }
@@ -93,13 +93,15 @@ function handleAnswerClick(answer, correctAnswer) {
     // Check if the answer is correct
     if (answer === correctAnswer) {
         resultContainer.innerText = "Correct!";
-        resultContainer.style.color = 'green';
+        resultContainer.style.backgroundColor = 'green';
+        resultContainer.style.padding = '0.25rem';
         answerButtons.forEach(btn => {
             if (btn.innerText === answer) btn.style.backgroundColor = 'green';
         });
     } else {
         resultContainer.innerText = "Incorrect!";
-        resultContainer.style.color = 'red';
+        resultContainer.style.backgroundColor = 'red';
+        resultContainer.style.padding = '0.25rem';
         currentLives--;
         livesContainer.innerText = `Lives: ${currentLives}`;
         answerButtons.forEach(btn => {
@@ -112,6 +114,8 @@ function handleAnswerClick(answer, correctAnswer) {
         currentQuestionIndex++;
         showQuestion();
         resultContainer.innerText = "";
+        resultContainer.style.padding = '0';
+
     }, 1000);
 }
 
