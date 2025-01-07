@@ -113,10 +113,11 @@ h2 {
 .github {
     height: 4rem;
     width: auto;
+    filter: invert();
 }
 
 .github:hover {
-    filter: invert();
+    filter: grayscale();
 }
 
 /*main container*/
@@ -279,7 +280,7 @@ h2 {
     }
 
     .github {
-        height: 2rem;
+        height: 3rem;
         width: auto;
     }
 
