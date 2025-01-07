@@ -93,19 +93,19 @@ function handleAnswerClick(answer, correctAnswer) {
     // Check if the answer is correct
     if (answer === correctAnswer) {
         resultContainer.innerText = "Correct!";
-        resultContainer.style.backgroundColor = 'green';
+        resultContainer.style.backgroundColor = '#BBDD30';
         resultContainer.style.padding = '0.25rem';
         answerButtons.forEach(btn => {
-            if (btn.innerText === answer) btn.style.backgroundColor = 'green';
+            if (btn.innerText === answer) btn.style.backgroundColor = '#BBDD30';
         });
     } else {
         resultContainer.innerText = "Incorrect!";
-        resultContainer.style.backgroundColor = 'red';
+        resultContainer.style.backgroundColor = '#E14536';
         resultContainer.style.padding = '0.25rem';
         currentLives--;
         livesContainer.innerText = `Lives: ${currentLives}`;
         answerButtons.forEach(btn => {
-            if (btn.innerText === answer) btn.style.backgroundColor = 'red';
+            if (btn.innerText === answer) btn.style.backgroundColor = '#E14536';
         });
     }
 

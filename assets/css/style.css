@@ -104,11 +104,19 @@ h2 {
     color: white;
     width: 100vw;
     min-height: 4rem;
-    display: flex;
     flex-wrap: wrap;
     background-image: url('../images/reef.jpg');
     background-size: cover;
     background-position: 0% 80%;
+}
+
+.github {
+    height: 4rem;
+    width: auto;
+}
+
+.github:hover {
+    filter: invert();
 }
 
 /*main container*/
@@ -133,6 +141,10 @@ h2 {
 }
 .ocean {
     background-image: url('../images/ocean.jpg');
+}
+
+.leafs {
+    background-image: url('../images/leafs.jpg');
 }
 
 /* Quiz css */
@@ -165,7 +177,6 @@ h2 {
     display:none;
     flex-direction: column;
     height: fit-content;
-    background-color: #FAE403AA;
 }
 
 /* question */
@@ -235,7 +246,6 @@ h2 {
     color: #333;
 }
 
-
 /* annimations */
 
 /*slide from right */
@@ -266,6 +276,11 @@ h2 {
 
     h1 {
         font-size: 1.25rem;
+    }
+
+    .github {
+        height: 3rem;
+        width: auto;
     }
 
     .knowledge {
