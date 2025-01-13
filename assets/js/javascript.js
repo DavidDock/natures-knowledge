@@ -80,8 +80,6 @@ function showQuestion() {
     answerButtons.forEach((btn, idx) => {
         btn.innerText = answers[idx];
         btn.style.backgroundColor = '#FD7A03'; // Reset button color
-        btn.classList.remove("hover");
-        btn.classList.add("hover");
         btn.onclick = () => handleAnswerClick(answers[idx], question.correct);
     });
 }

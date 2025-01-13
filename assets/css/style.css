@@ -100,12 +100,11 @@ h2 {
 
 /* Footer */
 .footer-container {
-    opacity: 40%;
-    color: white;
+    color: rgb(230, 230, 230);
     width: 100vw;
     min-height: 4rem;
     flex-wrap: wrap;
-    background-image: url('../images/reef.jpg');
+    background-image: url('../images/reef.png');
     background-size: cover;
     background-position: 0% 80%;
 }
@@ -153,16 +152,34 @@ h2 {
 /* start and restart buttons */
 #start-btn {
     height: fit-content;
+    background-color: #FD7A03;
+    border: none;
+    color: black;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
 }
 
 #restart-btn {
     height: fit-content;
+    background-color: #FD7A03;
+    border: none;
+    color: black;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
     display: none;
 }
 
 #start-btn:hover, #restart-btn:hover {
-    background-color: #45a049; /* Darker green on hover */
     transform: scale(1.05); /* Slight zoom effect */
+    filter: brightness(130%); /* Slight lighter effect */
 }
 
 /* quiz container */
@@ -202,14 +219,8 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-/*.answer-btn:hover {
-    transform: scale(1.05); /* Slight zoom effect */
-/*   filter: brightness(140%); /* lighten efffect */
-/*}*/
-
 .hover:hover {
     transform: scale(1.05); /* Slight zoom effect */
-    filter: brightness(140%); /* lighten efffect */
 } 
 
 /* lives */
