@@ -35,7 +35,7 @@ export const oceanQuestions = [
     { question: "Which of the following is a major ocean current?", answers: ["Gulf Stream", "Kuroshio Current", "Both A and B", "None of the above"], correct: "Both A and B" },
     { question: "What is the primary function of whale blubber?", answers: ["Insulation", "Food storage", "Buoyancy", "All answers"], correct: "All answers" },
     { question: "What is the name of the deepest ocean trench?", answers: ["Mariana Trench", "Tonga Trench", "Philippine Trench", "Java Trench"], correct: "Mariana Trench" },
-    { question: "Which of these is a type of coral?", answers: ["Stony Coral", "Soft Coral", "Both A and B", "None of the above"], correct: "Both A and B" },
+    { question: "Which of these is a type of coral?", answers: ["Stony Coral", "Soft Coral", "Both", "Neither"], correct: "Both" },
     { question: "What is the main component of ocean water?", answers: ["Salt", "Freshwater", "Oil", "Plankton"], correct: "Salt" },
     { question: "Which marine animal has the largest eyes?", answers: ["Giant Squid", "Shark", "Octopus", "Whale"], correct: "Giant Squid" },
     { question: "What is the name of the phenomenon where ocean water turns red due to algal bloom?", answers: ["Red Tide", "Blue Hole", "Greenhouse Effect", "Coral Bleaching"], correct: "Red Tide" },
