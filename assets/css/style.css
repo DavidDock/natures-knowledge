@@ -202,10 +202,15 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-.answer-btn:hover {
+/*.answer-btn:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+/*   filter: brightness(140%); /* lighten efffect */
+/*}*/
+
+.hover:hover {
     transform: scale(1.05); /* Slight zoom effect */
     filter: brightness(140%); /* lighten efffect */
-}
+} 
 
 /* lives */
 #lives {
