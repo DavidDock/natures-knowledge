@@ -28,7 +28,7 @@ function shuffleArray(arr) {
 // Start the quiz by calling the first question
 function startGame() {
     // Hide the start button
-    document.getElementById('start-btn').style.display = 'none';
+    document.getElementById('about').style.display = 'none';
 
     // Show the quiz container
     document.getElementById('quiz-container').style.display = 'flex';
