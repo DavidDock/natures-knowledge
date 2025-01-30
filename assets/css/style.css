@@ -154,15 +154,33 @@ h2 {
 #about {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(#FD7A03, #FAE403);
+    border-radius: 0.5rem;
+}
+
+#heading-container {
+    background: black;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+#about-heading {
+  background: linear-gradient(to right, #BBDD30, #11B5C2, #E14536, #FD7A03, #FAE403);
+  background: -webkit-linear-gradient(left, #BBDD30, #11B5C2, #E14536, #FD7A03, #FAE403);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 /* start and restart buttons */
 #start-btn {
     height: fit-content;
-    background-color: #FD7A03;
     width: fit-content;
-    border: none;
     color: black;
+    font-weight: bold;
+    border: black solid 0.15rem;
+    background: linear-gradient(to right, #BBDD30, #11B5C2, #E14536, #FD7A03, #FAE403);
     padding: 0.5rem 0.5rem;
     margin: 0.5rem auto;
     font-size: 1rem;
