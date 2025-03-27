@@ -293,12 +293,14 @@ h2 {
 
 .congratulations, .gameover {
     font-size: 1.7rem;
+    font-family: "Ribeye Marrow", sans-serif;
 }
 
 #looser-message {
     display: none;
     text-align: center;
     color: black;
+    background: linear-gradient(#E14536, #FAE403, #E14536);
     border-radius: 0.5rem;
 }
 
