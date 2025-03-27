@@ -32,7 +32,7 @@ export const oceanQuestions = [
     { question: "Which of these creatures is a type of marine reptile?", answers: ["Sea Turtle", "Whale", "Shark", "Dolphin"], correct: "Sea Turtle" },
     { question: "Which fish is known for its ability to inflate into a ball?", answers: ["Pufferfish", "Clownfish", "Swordfish", "Anglerfish"], correct: "Pufferfish" },
     { question: "What causes the tides in the ocean?", answers: ["Moon's gravity", "Sun's heat", "Ocean currents", "Wind"], correct: "Moon's gravity" },
-    { question: "Which of the following is a major ocean current?", answers: ["Gulf Stream", "Kuroshio Current", "Both A and B", "None of the above"], correct: "Both A and B" },
+    { question: "Which of the following is a major ocean current?", answers: ["Gulf Stream", "Kuroshio Current", "Both", "None"], correct: "Both" },
     { question: "What is the primary function of whale blubber?", answers: ["Insulation", "Food storage", "Buoyancy", "All answers"], correct: "All answers" },
     { question: "What is the name of the deepest ocean trench?", answers: ["Mariana Trench", "Tonga Trench", "Philippine Trench", "Java Trench"], correct: "Mariana Trench" },
     { question: "Which of these is a type of coral?", answers: ["Stony Coral", "Soft Coral", "Both", "Neither"], correct: "Both" },
