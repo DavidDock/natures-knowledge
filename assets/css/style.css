@@ -204,7 +204,7 @@ h2 {
     display: none;
 }
 
-#start-btn:hover, #restart-btn:hover {
+#start-btn:hover, #restart-btn:hover, #return-btn:hover {
     transform: scale(1.05); /* Slight zoom effect */
     filter: brightness(130%); /* Slight lighter effect */
 }
@@ -305,7 +305,7 @@ h2 {
 }
 
 /* 404 page and return button */
-#returnbutton {
+#return-btn {
     height: fit-content;
     width: fit-content;
     color: black;
