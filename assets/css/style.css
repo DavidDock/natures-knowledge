@@ -326,6 +326,8 @@ h2 {
     background: linear-gradient(#FD7A03, #FAE403);
     border-radius: 0.5rem;
     margin: 3rem 2rem;
+    height: fit-content;
+    width: fit-content;
 }
 
 /* annimations */
