@@ -234,9 +234,34 @@ Because the game is to be used by children it is important to ensure the user jo
 
 ### Colour Scheme
 
+Because this game is designed to be enjoyable for children I opted to go for a really bright, colorful and cheerful color scheme whilst also matching the natural world ranging from outer space to the ocean. These colours where also represented in the images used.
+
+To meet WCAG 2.0 criteria, the color scheme was then passed to [eightshapes.com](https://eightshapes.com/) to generate an accessibility table, I then only used accessible text colors to ensure easy reading.
+
+![Color-grid](assets/readme/colors.png)
+
 ### Typography
 
+Again because this is a game with children in mind I used fun, playful fonts designed to entertain.
+
+For the main heading and important text like the questions I used Ribeye Marrow, its a fun-filled font which is very stylised and ideal for headings and important text.
+
+For the other headings I used Barriecito, its also a fun font which is stylish but easy to read.
+
+For other parts of text, like the answer options I used Delius, again designed to be easy to read and more subtle. 
+
+![Fonts](assets/readme/fonts.png)
+
+
 ### Images
+
+The images used where to enhance the user experience by linking to the theme of nature and also keeping in mind the target audience.
+
+The main logo has nature cartoon images that tie into the quiz's question categories. This image animates upon refresh:
+
+![MainLogo](assets/readme/mainlogo.png)
+
+The main layout of the page consists of nature images in the background representing outer space at the top, the earth (or current question category) in the middle and the ocean at the bottom on the footer. This brings abit of visual fun for the user, especially the changing image in the main area when the quiz category changes.
 
 ### Wireframes
 
@@ -247,6 +272,8 @@ Because the game is to be used by children it is important to ensure the user jo
 HTML, CSS, JavaScript  
 
 ### Favicon
+
+![Favicon](assets/readme/faviconread.png)
 
 ### Logo and Title  
 
