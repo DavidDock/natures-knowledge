@@ -304,6 +304,30 @@ h2 {
     border-radius: 0.5rem;
 }
 
+/* 404 page and return button */
+#returnbutton {
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    font-weight: bold;
+    border: black solid 0.15rem;
+    background: linear-gradient(to right, #BBDD30, #11B5C2, #E14536, #FD7A03, #FAE403);
+    padding: 0.5rem 0.5rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+#errorabout {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#FD7A03, #FAE403);
+    border-radius: 0.5rem;
+    margin: 3rem 2rem;
+}
+
 /* annimations */
 
 /*slide from right */
