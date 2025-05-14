@@ -320,6 +320,11 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
+#returnlink {
+    color: black;
+    text-decoration: none;
+}
+
 #errorabout {
     display: flex;
     flex-direction: column;
